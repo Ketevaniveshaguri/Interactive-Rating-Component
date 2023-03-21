@@ -1,0 +1,18 @@
+.wrapper-card {
+  width: 327px;
+  height: 360px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  margin: 15% auto;
+  border-radius: 15px;
+  padding: 24px;
+
+  @media (min-width: 1056px) {
+    width: 412px;
+    height: 416px;
+    padding: 45px 30px 45px 38px;
+  }
+}

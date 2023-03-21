@@ -1,0 +1,20 @@
+.rate-number {
+  list-style: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  color: #7c8798;
+  background-color: #262e38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media (min-width: 1056px) {
+    width: 51px;
+    height: 51px;
+  }
+
+  &:hover {
+    background-color: #7c8798;
+    color: #fff;
+  }
+}

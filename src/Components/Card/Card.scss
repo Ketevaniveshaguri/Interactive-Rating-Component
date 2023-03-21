@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.rate-card {
+  &__img {
+    margin-bottom: 16px;
+    @media (min-width: 1056px) {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 30px;
+    }
+  }
+  &__header {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+    @media (min-width: 1056px) {
+      font-size: 28px;
+    }
+  }
+  &__paragraph {
+    font-weight: 400;
+    font-size: 13px;
+    color: #969fad;
+    margin-bottom: 24px;
+    line-height: 22px;
+    @media (min-width: 1056px) {
+      font-size: 15px;
+      line-height: 24px;
+    }
+  }
+  &__number-container {
+    display: flex;
+    gap: 17px;
+    @media (min-width: 1056px) {
+      gap: 21px;
+    }
+
+    .background-active {
+      color: #fff;
+      background: #fc7614;
+      cursor: pointer;
+    }
+  }
+}
+
+.rated-card {
+  text-align: center;
+  line-height: 22px;
+  font-size: 14px;
+
+  &__img {
+    margin-bottom: 32px;
+    @media (min-width: 1056px) {
+      width: 162px;
+      height: 108px;
+    }
+  }
+  &__info {
+    color: #fc7614;
+    width: 193px;
+    height: 32px;
+    margin-bottom: 30px;
+    background: #262e38;
+    border-radius: 22.5px;
+    margin: 0 auto;
+    padding-top: 4px;
+    @media (min-width: 1056px) {
+      font-size: 15px;
+    }
+  }
+  &__header {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 24px;
+    @media (min-width: 1056px) {
+      font-size: 28px;
+      line-height: 35px;
+    }
+  }
+  &__paragraph {
+    color: #969fad;
+    @media (min-width: 1056px) {
+      font-size: 15px;
+    }
+  }
+}
