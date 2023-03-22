@@ -4,6 +4,7 @@ import RateNumber from "../UI/RateNumber";
 import "./Card.scss";
 import "../UI/WrapperCard";
 import WrapperCard from "../UI/WrapperCard";
+import starlogo from "../../logo.svg";
 
 const rateNumberArr = [1, 2, 3, 4, 5];
 
@@ -24,7 +25,7 @@ const Card = function () {
         <div className="rate-card">
           <img
             className="rate-card__img"
-            src="../image/logo.svg"
+            src={starlogo}
             alt="rate-card__logo"
           ></img>
           <h1 className="rate-card__header">How did we do?</h1>
