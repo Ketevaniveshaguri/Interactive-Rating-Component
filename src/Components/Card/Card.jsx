@@ -51,7 +51,7 @@ const Card = function () {
           <img
             src="../image/onlinePayment.svg"
             className="rated-card__img"
-            alt="online-payment-image"
+            alt="online-payment"
           ></img>
           <p className="rated-card__info">
             you selected {clickedNumber} out of {rateNumberArr.length}
