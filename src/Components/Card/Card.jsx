@@ -5,6 +5,7 @@ import "./Card.scss";
 import "../UI/WrapperCard";
 import WrapperCard from "../UI/WrapperCard";
 import starlogo from "../../logo.svg";
+import onlinePayment from "../../onlinePayment.svg";
 
 const rateNumberArr = [1, 2, 3, 4, 5];
 
@@ -50,7 +51,7 @@ const Card = function () {
       ) : (
         <div className="rated-card">
           <img
-            src="../image/onlinePayment.svg"
+            src={onlinePayment}
             className="rated-card__img"
             alt="online-payment"
           ></img>
