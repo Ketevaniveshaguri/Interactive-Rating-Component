@@ -1,2 +1,2 @@
-*.jsx linguist-vendored
+*.js linguist-vendored
 *.jsx linguist-detectable=true
