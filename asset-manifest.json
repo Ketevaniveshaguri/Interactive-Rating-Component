@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/Interactive-Rating-Component/static/css/main.7f143263.css",
-    "main.js": "/Interactive-Rating-Component/static/js/main.d35efa4e.js",
+    "main.js": "/Interactive-Rating-Component/static/js/main.a3bbaf46.js",
     "static/js/787.9c1ee0cf.chunk.js": "/Interactive-Rating-Component/static/js/787.9c1ee0cf.chunk.js",
     "static/media/Overpass-Bold.ttf": "/Interactive-Rating-Component/static/media/Overpass-Bold.b471ca5db1d8cda7853f.ttf",
     "static/media/Overpass-Regular.ttf": "/Interactive-Rating-Component/static/media/Overpass-Regular.6bc712f590eef4f9937f.ttf",
-    "static/media/logo.svg": "/Interactive-Rating-Component/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/onlinePayment.svg": "/Interactive-Rating-Component/static/media/onlinePayment.09a5834f16473b4e1e7a0944223cc5f4.svg",
+    "static/media/logo.svg": "/Interactive-Rating-Component/static/media/logo.731c8727aa517bb0ba03d5cc312e5271.svg",
     "index.html": "/Interactive-Rating-Component/index.html",
     "main.7f143263.css.map": "/Interactive-Rating-Component/static/css/main.7f143263.css.map",
-    "main.d35efa4e.js.map": "/Interactive-Rating-Component/static/js/main.d35efa4e.js.map",
+    "main.a3bbaf46.js.map": "/Interactive-Rating-Component/static/js/main.a3bbaf46.js.map",
     "787.9c1ee0cf.chunk.js.map": "/Interactive-Rating-Component/static/js/787.9c1ee0cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f143263.css",
-    "static/js/main.d35efa4e.js"
+    "static/js/main.a3bbaf46.js"
   ]
 }
