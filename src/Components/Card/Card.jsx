@@ -37,7 +37,11 @@ const Card = function () {
           <ul className="rate-card__number-container">
             {rateNumberArr.map((element) => (
               <RateNumber
-                className={element == clickedNumber && "background-active"}
+                className={
+                  clickedNumber && clickedNumber.includes(element)
+                    ? "background-active"
+                    : ""
+                }
                 numbers={element}
                 key={Math.random()}
                 onClick={clickedNumberHandler}
